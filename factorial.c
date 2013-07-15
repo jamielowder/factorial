@@ -2,12 +2,6 @@
 	Jamie Lowder 
 	July 2013
 	C file finds the factorial of a positive number 
-	To run this file copy the contents and paste into a text editor.  Go to the terminal.
-	Go into the directory that contains THIS file. Once in the proper folder type:
-		 gcc factorial.c
-	(the line above will compile the code)
-	Then type
-		./a.out
 */
 #include <stdio.h>
 
@@ -48,7 +42,7 @@ int main(int arg, char **argv) {
 			num = userNumber();
 		}
 
-		total = factorial(num);//this method will return the result of the factorial
+		total = factorial(num);
 		printf("Total is: %i\n", total);
 
 		//Try again statements
